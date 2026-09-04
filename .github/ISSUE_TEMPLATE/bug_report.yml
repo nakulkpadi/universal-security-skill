@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible problem in the skill, scripts, docs, or templates.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not disclose vulnerabilities here. Use the private process in SECURITY.md."
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include exact non-sensitive output and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, shell, VS Code/Copilot or compatible agent, and project stack.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true

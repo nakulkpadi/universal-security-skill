@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Universal Security Skill in research, training, or public documentation, please cite this project."
+title: "Universal Security Skill"
+type: software
+authors:
+  - family-names: "Kapdi"
+    given-names: "Nakul"
+version: "1.1.0"
+date-released: "2026-09-04"
+license: MIT
+keywords:
+  - application-security
+  - web-security
+  - agent-skills
+  - vscode
+  - github-copilot
+  - secure-coding
+  - owasp
+  - devsecops

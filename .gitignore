@@ -1,0 +1,19 @@
+# Security reports generated locally
+security-reports/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Common build/dependency output from local test fixtures or examples
+node_modules/
+__pycache__/
+*.pyc
